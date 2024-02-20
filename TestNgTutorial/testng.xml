@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan department">
+	<listeners>
+		<listener class-name="LearningTestNg.Listener"/>
+	</listeners> 
+	<parameter name="URL" value="Academy.com"/>
+  <test name="Personal Loan">
+	<parameter name="Key" value="1234"/> 
+    <classes>
+      <class name="LearningTestNg.Day1"/>
+      <class name="LearningTestNg.Day2"/>
+      <class name="LearningTestNg.Day4">
+		  <methods>
+			  <include name="Mobile.*"></include>
+			  <include name="Web.*"></include>
+		  </methods>
+	  </class>
+    </classes>
+  </test> 
+  <test name="Car Loan">
+    <classes>
+      <class name="LearningTestNg.Day3">
+      <methods>
+		  <exclude name="Mobilecarlogin"/>
+	  </methods>
+	  </class>
+    </classes>
+  </test> 
+</suite> 

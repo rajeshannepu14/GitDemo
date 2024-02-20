@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Loan department]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="Academy.com"/>
+  <listeners>
+    <listener class-name="LearningTestNg.Listener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Car Loan(failed)">
+    <classes>
+      <class name="LearningTestNg.Day3">
+        <methods>
+          <include name="Webcarloanlogin"/>
+          <include name="beforesuite"/>
+          <include name="Apicarlogout"/>
+        </methods>
+      </class> <!-- LearningTestNg.Day3 -->
+    </classes>
+  </test> <!-- Car Loan(failed) -->
+</suite> <!-- Failed suite [Loan department] -->
