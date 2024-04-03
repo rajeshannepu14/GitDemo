@@ -10,6 +10,7 @@ public class youtube {
 		// TODO Auto-generated method stub
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://www.youtube.com/");
+		System.out.println(driver.getTitle());
 		driver.manage().window().maximize();
 		driver.findElement(By.cssSelector("#search-input #search")).sendKeys("Cricket");
 		driver.findElement(By.cssSelector("#search-icon-legacy .yt-icon")).click();
