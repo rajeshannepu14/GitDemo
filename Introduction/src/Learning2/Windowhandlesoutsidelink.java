@@ -17,11 +17,11 @@ public class Windowhandlesoutsidelink {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:/Users/rannepu/Documents/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:/Users/rannepu/Documents/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();	
 		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/angularpractice/");
-		//tab or winddow same syntax just change .TAB for window
+		//tab or window same syntax just change .TAB for window
 		driver.switchTo().newWindow(WindowType.TAB);
 		Set<String> windows = driver.getWindowHandles();
 		Iterator<String> it = windows.iterator();

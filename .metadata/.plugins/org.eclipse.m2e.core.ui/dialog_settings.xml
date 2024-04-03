@@ -2,11 +2,13 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="rajeshacademy"/>
 			<item value="RajeshAcademy"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SeleniumFeaturs"/>
 			<item value="Selenium-Java"/>
 		</list>
 		<list key="version">
@@ -42,13 +44,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="Rajeshlearning"/>
 		</list>
 		<list key="groupId">
-			<item value="Rajeshlearning"/>
 		</list>
 		<list key="artifactId">
-			<item value="SeleniumFramework"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -64,10 +63,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="Framework"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Exceldriver"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

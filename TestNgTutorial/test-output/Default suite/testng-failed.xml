@@ -3,13 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LearningTestNg.Day3">
+      <class name="LearningTestNg.Day4">
         <methods>
-          <include name="Webcarloanlogin"/>
-          <include name="beforesuite"/>
-          <include name="Mobilecarsignin"/>
+          <include name="Mobilehomelogout"/>
+          <include name="Afterclass"/>
+          <include name="Webhomeloanlogin"/>
+          <include name="Mobilehomesignout"/>
+          <include name="Mobilehomeurl"/>
+          <include name="aftermethod"/>
+          <include name="Mobilehomelogin"/>
+          <include name="Mobilehomesignin"/>
+          <include name="Beforemethod"/>
+          <include name="Atersuit"/>
+          <include name="Beforeclass"/>
         </methods>
-      </class> <!-- LearningTestNg.Day3 -->
+      </class> <!-- LearningTestNg.Day4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

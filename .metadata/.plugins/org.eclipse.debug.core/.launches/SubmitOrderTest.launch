@@ -5,7 +5,7 @@
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SeleniumFramework"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
     <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
-        <mapEntry key="Rajeshlearning.tests.SubmitOrderTest" value="getData;submitOrder;orderHistoryTest"/>
+        <mapEntry key="Rajeshlearning.tests.SubmitOrderTest" value="submitOrder;orderHistoryTest;getData"/>
     </mapAttribute>
     <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
         <listEntry value="Rajeshlearning.tests.SubmitOrderTest"/>
